@@ -66,7 +66,6 @@ nav li a:hover{
 
 .products{
   background-image: url("../images/curve.png");
-  max-height: 50px;
   background-size: cover;
   background-position: center top;
   padding:20%;
@@ -108,7 +107,8 @@ nav li a:hover{
   align-items: center;
   padding: 40px 20px;
   flex-wrap: wrap;
-  margin: 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .quality_item img{
@@ -188,14 +188,34 @@ footer{
   .products{
     	flex-direction:column;
     	height: auto;
+      align-items: center;
+      padding: 10%;
   }
-  .product{ margin-top: auto; }
-  .main_section{ padding: 4%; }
-  .mentions{ flex-direction:column; }
-  .quality{
-    margin-top: 600px;
+  .product{ 
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main_section{ 
+    padding: 4%;
+    text-align: center;
+  }
+  .mentions{ 
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
   }
   .mentions p{
-    max-width: 400px;
+    max-width: 456px;
+  }
+  .mention{
+    width: 90%;
+  }
+  .quality{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .quality_item p{
+    text-align: center;
   }
 }
