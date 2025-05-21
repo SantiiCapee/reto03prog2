@@ -70,6 +70,7 @@ nav li a:hover{
   background-position: center top;
   padding:20%;
   display: flex;
+  justify-content: center;
 }
 
 .product{
